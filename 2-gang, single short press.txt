@@ -1,0 +1,42 @@
+--------------------------
+Event 0 fired 12:28:
+(Button 1/2 - short press)
+--------------------------
+event_type: zha_event
+data:
+  device_ieee: e0:79:8d:ff:fe:de:c1:17
+  unique_id: e0:79:8d:ff:fe:de:c1:17:1:0x0006
+  device_id: c02137dea8ccecf77b23e3e19ef5ef3f
+  endpoint_id: 1
+  cluster_id: 6
+  command: remote_button_short_press
+  args: []
+  params: {}
+origin: LOCAL
+time_fired: "2023-08-08T11:28:41.409895+00:00"
+context:
+  id: 01H7AEFZY1F8K0QF93QB17F8C5
+  parent_id: null
+  user_id: null
+
+
+--------------------------
+Event 1 fired 12:28:
+(Button 2/2 - short press)
+--------------------------
+event_type: zha_event
+data:
+  device_ieee: e0:79:8d:ff:fe:de:c1:17
+  unique_id: e0:79:8d:ff:fe:de:c1:17:2:0x0006
+  device_id: c02137dea8ccecf77b23e3e19ef5ef3f
+  endpoint_id: 2
+  cluster_id: 6
+  command: remote_button_short_press
+  args: []
+  params: {}
+origin: LOCAL
+time_fired: "2023-08-08T11:28:42.881049+00:00"
+context:
+  id: 01H7AEG1C1CSJSFEBWX7RAKS79
+  parent_id: null
+  user_id: null

@@ -1,0 +1,39 @@
+--------------------------
+Event 0 fired 12:41:
+(Button 2 - 5s press)
+--------------------------
+event_type: zha_event
+data:
+  device_ieee: 70:ac:08:ff:fe:af:6c:b9
+  unique_id: 70:ac:08:ff:fe:af:6c:b9:2:0x0006
+  device_id: f91ee2863b08ee8fcf6c593432b34a02
+  endpoint_id: 2
+  cluster_id: 6
+  command: remote_button_long_press
+  args: []
+  params: {}
+origin: LOCAL
+time_fired: "2023-08-08T11:41:57.179164+00:00"
+context:
+  id: 01H7AF891VP6T85A7Y4JGAX5NR
+  parent_id: null
+  user_id: null
+
+
+--------------------------
+Event 1 fired 12:42:
+(Button 2 - 10s press)
+Causes device reset
+--------------------------
+event_type: zha_event
+data:
+  device_ieee: 70:ac:08:ff:fe:af:6c:b9
+  unique_id: 70:ac:08:ff:fe:af:6c:b9
+  device_id: f91ee2863b08ee8fcf6c593432b34a02
+  device_event_type: device_offline
+origin: LOCAL
+time_fired: "2023-08-08T11:42:15.849620+00:00"
+context:
+  id: 01H7AF8V998JRCV34SV2B8RP5J
+  parent_id: null
+  user_id: null

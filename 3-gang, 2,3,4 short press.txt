@@ -1,0 +1,66 @@
+All of these register as double presses.  If instead I wait a few ms longer they register as multiple single presses.
+
+--------------------------
+Event 0 fired 13:27:
+(Button 1/3 - double press)
+--------------------------
+event_type: zha_event
+data:
+  device_ieee: 70:ac:08:ff:fe:af:6c:b9
+  unique_id: 70:ac:08:ff:fe:af:6c:b9:1:0x0006
+  device_id: f91ee2863b08ee8fcf6c593432b34a02
+  endpoint_id: 1
+  cluster_id: 6
+  command: remote_button_double_press
+  args: []
+  params: {}
+origin: LOCAL
+time_fired: "2023-08-08T12:27:21.057575+00:00"
+context:
+  id: 01H7AHVD312JE8Q0XTMX1W1HAM
+  parent_id: null
+  user_id: null
+
+
+--------------------------
+Event 1 fired 13:27:
+(Button 2/3 - triple press)
+--------------------------
+event_type: zha_event
+data:
+  device_ieee: 70:ac:08:ff:fe:af:6c:b9
+  unique_id: 70:ac:08:ff:fe:af:6c:b9:2:0x0006
+  device_id: f91ee2863b08ee8fcf6c593432b34a02
+  endpoint_id: 2
+  cluster_id: 6
+  command: remote_button_double_press
+  args: []
+  params: {}
+origin: LOCAL
+time_fired: "2023-08-08T12:27:26.851158+00:00"
+context:
+  id: 01H7AHVJR3QX9TRY25Z1FM4R9W
+  parent_id: null
+  user_id: null
+
+
+--------------------
+Event 2 fired 13:27:
+(Button 3/3 - quadruple press)
+--------------------
+event_type: zha_event
+data:
+  device_ieee: 70:ac:08:ff:fe:af:6c:b9
+  unique_id: 70:ac:08:ff:fe:af:6c:b9:3:0x0006
+  device_id: f91ee2863b08ee8fcf6c593432b34a02
+  endpoint_id: 3
+  cluster_id: 6
+  command: remote_button_double_press
+  args: []
+  params: {}
+origin: LOCAL
+time_fired: "2023-08-08T12:27:29.869985+00:00"
+context:
+  id: 01H7AHVNPDTBZ1XMSZ08EY6DMF
+  parent_id: null
+  user_id: null
