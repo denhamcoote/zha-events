@@ -1,0 +1,132 @@
+From off
+
+---------------------------------------------
+Event 0 fired 14:28:
+Toggle on to defualt scene (1)
+---------------------------------------------
+event_type: zha_event
+data:
+  device_ieee: 70:ac:08:ff:fe:af:6c:b9
+  unique_id: 70:ac:08:ff:fe:af:6c:b9:2:0x0006
+  device_id: f91ee2863b08ee8fcf6c593432b34a02
+  endpoint_id: 2
+  cluster_id: 6
+  command: remote_button_short_press
+  args: []
+  params: {}
+origin: LOCAL
+time_fired: "2023-08-10T13:28:46.762887+00:00"
+context:
+  id: 01H7FT5ADAWRKAFTHWABFMTJZ7
+  parent_id: null
+  user_id: null
+
+
+---------------------------------------------
+Event 1 fired 14:28:
+Next scene (2)
+---------------------------------------------
+event_type: zha_event
+data:
+  device_ieee: 70:ac:08:ff:fe:af:6c:b9
+  unique_id: 70:ac:08:ff:fe:af:6c:b9:2:0x0006
+  device_id: f91ee2863b08ee8fcf6c593432b34a02
+  endpoint_id: 2
+  cluster_id: 6
+  command: remote_button_short_press
+  args: []
+  params: {}
+origin: LOCAL
+time_fired: "2023-08-10T13:28:48.270870+00:00"
+context:
+  id: 01H7FT5BWEMXB65MTHTW7HD93G
+  parent_id: null
+  user_id: null
+
+
+---------------------------------------------
+Event 2 fired 14:28:
+Opps, a double press... next scene (3) anyway
+---------------------------------------------
+event_type: zha_event
+data:
+  device_ieee: 70:ac:08:ff:fe:af:6c:b9
+  unique_id: 70:ac:08:ff:fe:af:6c:b9:2:0x0006
+  device_id: f91ee2863b08ee8fcf6c593432b34a02
+  endpoint_id: 2
+  cluster_id: 6
+  command: remote_button_double_press
+  args: []
+  params: {}
+origin: LOCAL
+time_fired: "2023-08-10T13:28:49.890344+00:00"
+context:
+  id: 01H7FT5DF2MARNSDBYYTJ0C11G
+  parent_id: null
+  user_id: null
+
+
+---------------------------------------------
+Event 3 fired 14:28:
+Next scene (4)
+---------------------------------------------
+event_type: zha_event
+data:
+  device_ieee: 70:ac:08:ff:fe:af:6c:b9
+  unique_id: 70:ac:08:ff:fe:af:6c:b9:2:0x0006
+  device_id: f91ee2863b08ee8fcf6c593432b34a02
+  endpoint_id: 2
+  cluster_id: 6
+  command: remote_button_short_press
+  args: []
+  params: {}
+origin: LOCAL
+time_fired: "2023-08-10T13:28:51.199942+00:00"
+context:
+  id: 01H7FT5EQZ7SDHTD7M622ME3G9
+  parent_id: null
+  user_id: null
+
+
+---------------------------------------------
+Event 4 fired 14:28:
+Waited 4 seconds - turn off
+---------------------------------------------
+event_type: zha_event
+data:
+  device_ieee: 70:ac:08:ff:fe:af:6c:b9
+  unique_id: 70:ac:08:ff:fe:af:6c:b9:2:0x0006
+  device_id: f91ee2863b08ee8fcf6c593432b34a02
+  endpoint_id: 2
+  cluster_id: 6
+  command: remote_button_short_press
+  args: []
+  params: {}
+origin: LOCAL
+time_fired: "2023-08-10T13:28:56.093935+00:00"
+context:
+  id: 01H7FT5KGXPT213B4F95QDEWDV
+  parent_id: null
+  user_id: null
+
+
+---------------------------------------------
+Event 5 fired 14:28:
+Back on (time doesn't matter from off state)
+---------------------------------------------
+event_type: zha_event
+data:
+  device_ieee: 70:ac:08:ff:fe:af:6c:b9
+  unique_id: 70:ac:08:ff:fe:af:6c:b9:2:0x0006
+  device_id: f91ee2863b08ee8fcf6c593432b34a02
+  endpoint_id: 2
+  cluster_id: 6
+  command: remote_button_short_press
+  args: []
+  params: {}
+origin: LOCAL
+time_fired: "2023-08-10T13:28:57.095701+00:00"
+context:
+  id: 01H7FT5MG75CKSAQYX2CMQ2HJ3
+  parent_id: null
+  user_id: null
